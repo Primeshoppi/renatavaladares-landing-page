@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renata Valadares - Corretora de Seguros | Proteção e Segurança</title>
+    <meta name="description" content="Renata Valadares Corretora de Seguros - Mais de 5 mil clientes atendidos. Seguro Auto, Residencial, Vida, Viagem, Condomínio, Celular e Bicicleta. Solicite sua cotação grátis!">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <img src="images/logo.png" alt="Renata Valadares Corretora de Seguros" class="logo">
+                </div>
+                <div class="nav-menu">
+                    <a href="#inicio" class="nav-link">Início</a>
+                    <a href="#seguros" class="nav-link">Seguros</a>
+                    <a href="#diferenciais" class="nav-link">Diferenciais</a>
+                    <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                </div>
+                <div class="nav-cta">
+                    <a href="#contato" class="btn btn-primary">Solicitar Cotação</a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Proteja o que é <span class="highlight">Mais Importante</span> para Você
+                    </h1>
+                    <p class="hero-subtitle">
+                        Com mais de 5 mil clientes atendidos, a Renata Valadares oferece as melhores soluções em seguros com atendimento personalizado e consultoria especializada.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contato" class="btn btn-primary btn-large">
+                            <i class="fas fa-shield-alt"></i>
+                            Proteja o que é Seu
+                        </a>
+                        <a href="tel:61999674521" class="btn btn-secondary btn-large">
+                            <i class="fas fa-phone"></i>
+                            Fale Conosco Agora
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">5.000+</span>
+                            <span class="stat-label">Clientes Atendidos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7</span>
+                            <span class="stat-label">Tipos de Seguros</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24h</span>
+                            <span class="stat-label">Atendimento</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide active">
+                                <img src="images/banner_seguro_auto.jpg" alt="Seguro Auto - Proteção completa para seu veículo">
+                                <div class="slide-content">
+                                    <h3>Seguro Auto</h3>
+                                    <p>Proteção completa para seu veículo em qualquer situação</p>
+                                    <a href="#contato" class="btn btn-primary">Solicite uma Cotação Grátis</a>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="images/banner_seguro_residencial.jpg" alt="Seguro Residencial - Proteja seu lar">
+                                <div class="slide-content">
+                                    <h3>Seguro Residencial</h3>
+                                    <p>Segurança total para sua casa e família</p>
+                                    <a href="#contato" class="btn btn-primary">Fale Conosco Agora</a>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="images/banner_seguro_vida.jpg" alt="Seguro de Vida - Tranquilidade para sua família">
+                                <div class="slide-content">
+                                    <h3>Seguro de Vida</h3>
+                                    <p>Tranquilidade e proteção para quem você ama</p>
+                                    <a href="#contato" class="btn btn-primary">Proteja o que é Seu</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-btn prev" onclick="changeSlide(-1)">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="carousel-btn next" onclick="changeSlide(1)">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="carousel-indicators">
+                            <span class="indicator active" onclick="currentSlide(1)"></span>
+                            <span class="indicator" onclick="currentSlide(2)"></span>
+                            <span class="indicator" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seguros Section -->
+    <section id="seguros" class="seguros">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Seguros</h2>
+                <p class="section-subtitle">Proteção completa para todas as áreas da sua vida</p>
+            </div>
+            <div class="seguros-grid">
+                <div class="seguro-card priority-1">
+                    <div class="card-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="card-title">Seguro Auto</h3>
+                    <p class="card-description">Proteção para seu veículo em qualquer situação - acidentes, roubo, furto e muito mais.</p>
+                    <ul class="card-benefits">
+                        <li><i class="fas fa-check"></i> Cobertura 24 horas</li>
+                        <li><i class="fas fa-check"></i> Guincho gratuito</li>
+                        <li><i class="fas fa-check"></i> Carro reserva</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Solicitar Cotação</a>
+                </div>
+
+                <div class="seguro-card priority-2">
+                    <div class="card-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="card-title">Seguro Residencial</h3>
+                    <p class="card-description">Segurança total para sua casa contra incêndio, roubo, danos elétricos e desastres naturais.</p>
+                    <ul class="card-benefits">
+                        <li><i class="fas fa-check"></i> Proteção estrutural</li>
+                        <li><i class="fas fa-check"></i> Cobertura de conteúdo</li>
+                        <li><i class="fas fa-check"></i> Assistência 24h</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Solicitar Cotação</a>
+                </div>
+
+                <div class="seguro-card priority-3">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="card-title">Seguro de Vida</h3>
+                    <p class="card-description">Tranquilidade e proteção financeira para quem você ama em momentos difíceis.</p>
+                    <ul class="card-benefits">
+                        <li><i class="fas fa-check"></i> Cobertura por morte</li>
+                        <li><i class="fas fa-check"></i> Invalidez permanente</li>
+                        <li><i class="fas fa-check"></i> Assistência funeral</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Solicitar Cotação</a>
+                </div>
+
+                <div class="seguro-card">
+                    <div class="card-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3 class="card-title">Seguro Viagem</h3>
+                    <p class="card-description">Viaje com tranquilidade tendo cobertura médica e assistência em qualquer lugar do mundo.</p>
+                    <ul class="card-benefits">
+                        <li><i class="fas fa-check"></i> Cobertura médica</li>
+                        <li><i class="fas fa-check"></i> Bagagem extraviada</li>
+                        <li><i class="fas fa-check"></i> Cancelamento de viagem</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Solicitar Cotação</a>
+                </div>
+
+                <div class="seguro-card">
+                    <div class="card-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="card-title">Seguro Condomínio</h3>
+                    <p class="card-description">Proteção completa para áreas comuns e responsabilidade civil do condomínio.</p>
+                    <ul class="card-benefits">
+                        <li><i class="fas fa-check"></i> Áreas comuns</li>
+                        <li><i class="fas fa-check"></i> Responsabilidade civil</li>
+                        <li><i class="fas fa-check"></i> Equipamentos</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Solicitar Cotação</a>
+                </div>
+
+                <div class="seguro-card">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="card-title">Seguro Celular</h3>
+                    <p class="card-description">Proteja seu smartphone contra roubo, furto, quebra e danos por líquidos.</p>
+                    <ul class="card-benefits">
+                        <li><i class="fas fa-check"></i> Roubo e furto</li>
+                        <li><i class="fas fa-check"></i> Quebra acidental</li>
+                        <li><i class="fas fa-check"></i> Danos por líquidos</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Solicitar Cotação</a>
+                </div>
+
+                <div class="seguro-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bicycle"></i>
+                    </div>
+                    <h3 class="card-title">Seguro Bicicleta</h3>
+                    <p class="card-description">Proteção para sua bike contra roubo, furto e acidentes durante o uso.</p>
+                    <ul class="card-benefits">
+                        <li><i class="fas fa-check"></i> Roubo e furto</li>
+                        <li><i class="fas fa-check"></i> Acidentes pessoais</li>
+                        <li><i class="fas fa-check"></i> Danos à terceiros</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Solicitar Cotação</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section id="diferenciais" class="diferenciais">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Por que Escolher a Renata Valadares?</h2>
+                <p class="section-subtitle">Nossos diferenciais que nos destacam no mercado</p>
+            </div>
+            <div class="diferenciais-grid">
+                <div class="diferencial-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="card-title">Mais de 5 Mil Clientes Atendidos</h3>
+                    <p class="card-description">Experiência comprovada com milhares de clientes satisfeitos ao longo dos anos.</p>
+                </div>
+                <div class="diferencial-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3 class="card-title">Atendimento Personalizado</h3>
+                    <p class="card-description">Cada cliente é único. Oferecemos soluções sob medida para suas necessidades específicas.</p>
+                </div>
+                <div class="diferencial-card">
+                    <div class="card-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="card-title">Agilidade no Atendimento</h3>
+                    <p class="card-description">Respostas rápidas e processos otimizados para sua comodidade e tranquilidade.</p>
+                </div>
+                <div class="diferencial-card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="card-title">Consultoria Especializada</h3>
+                    <p class="card-description">Profissionais qualificados para orientar você na melhor escolha de proteção.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Section -->
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O que Nossos Clientes Dizem</h2>
+                <p class="section-subtitle">Depoimentos reais de quem confia na nossa proteção</p>
+            </div>
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="depoimento-text">"Excelente atendimento! A Renata me ajudou a encontrar o seguro auto perfeito para meu orçamento. Recomendo muito!"</p>
+                    <div class="depoimento-author">
+                        <strong>Maria Silva</strong>
+                        <span>Seguro Auto</span>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="depoimento-text">"Quando precisei acionar meu seguro residencial, o atendimento foi rápido e eficiente. Muito profissional!"</p>
+                    <div class="depoimento-author">
+                        <strong>João Santos</strong>
+                        <span>Seguro Residencial</span>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="depoimento-text">"Consultoria especializada que fez toda a diferença. Consegui um seguro de vida com ótimo custo-benefício."</p>
+                    <div class="depoimento-author">
+                        <strong>Ana Costa</strong>
+                        <span>Seguro de Vida</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="section-subtitle">Tire suas dúvidas sobre nossos seguros</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como solicitar uma cotação de seguro?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>É muito simples! Você pode entrar em contato conosco pelo telefone (61) 99967-4521, WhatsApp ou preenchendo o formulário de contato. Nossa equipe fará uma análise personalizada e enviará as melhores opções para você.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Qual a diferença entre seguro auto e proteção veicular?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O seguro auto é regulamentado pela SUSEP e oferece maior segurança jurídica. A proteção veicular é uma associação mutual. Ambos têm vantagens e nossa consultoria te ajuda a escolher a melhor opção.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>O seguro residencial cobre apenas a estrutura da casa?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não! O seguro residencial pode cobrir a estrutura, conteúdo (móveis, eletrodomésticos), responsabilidade civil, assistência 24h e muito mais. Cada apólice é personalizada conforme sua necessidade.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>É obrigatório ter seguro de vida?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não é obrigatório, mas é altamente recomendado. O seguro de vida garante proteção financeira para sua família em momentos difíceis, oferecendo tranquilidade e segurança.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quanto tempo demora para aprovar um seguro?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O tempo varia conforme o tipo de seguro e a seguradora. Geralmente, seguros mais simples como celular e viagem são aprovados em até 24h. Seguros auto e residencial podem levar de 2 a 5 dias úteis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Solicite sua cotação gratuita e proteja o que é importante para você</p>
+            </div>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h3>Fale Conosco</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Telefone / WhatsApp</strong>
+                            <a href="tel:61999674521">(61) 99967-4521</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>E-mail</strong>
+                            <a href="mailto:renatavaladares@seguros.com.br">renatavaladares@seguros.com.br</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Horário de Atendimento</strong>
+                            <span>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Siga-nos nas Redes Sociais</h4>
+                        <a href="#" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                            @renatavaladares_seguros
+                        </a>
+                    </div>
+                </div>
+                <div class="contato-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone *</label>
+                                <input type="tel" id="telefone" name="telefone" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="seguro">Tipo de Seguro de Interesse</label>
+                            <select id="seguro" name="seguro">
+                                <option value="">Selecione uma opção</option>
+                                <option value="auto">Seguro Auto</option>
+                                <option value="residencial">Seguro Residencial</option>
+                                <option value="vida">Seguro de Vida</option>
+                                <option value="viagem">Seguro Viagem</option>
+                                <option value="condominio">Seguro Condomínio</option>
+                                <option value="celular">Seguro Celular</option>
+                                <option value="bicicleta">Seguro Bicicleta</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos mais sobre suas necessidades..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i>
+                            Solicitar Cotação Gratuita
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="Renata Valadares Corretora de Seguros" class="footer-logo">
+                    <p>Protegendo o que é mais importante para você há anos. Mais de 5 mil clientes atendidos com excelência e dedicação.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Nossos Seguros</h4>
+                    <ul>
+                        <li><a href="#seguros">Seguro Auto</a></li>
+                        <li><a href="#seguros">Seguro Residencial</a></li>
+                        <li><a href="#seguros">Seguro de Vida</a></li>
+                        <li><a href="#seguros">Seguro Viagem</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (61) 99967-4521</p>
+                    <p><i class="fas fa-envelope"></i> renatavaladares@seguros.com.br</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Renata Valadares Corretora de Seguros. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5561999674521" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
